@@ -66,22 +66,57 @@ nav a {
 
 }
 
-.cards-container {
+.more-info {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-.quote-container {}
+.cards-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* padding: 7em 13em; */
+}
+
+.quote-container .quote-source {
+    align-self: flex-end;
+}
 
 .call-to-action {}
 
 .cta-container {
     background-color: #3882F6;
     color: #E5E7EB;
+    margin: 4em 16em;
+    padding: 2em 8em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta-container button {
+    border: none;
+    outline: none;
+    padding: 0.5em 2em;
 }
 
 footer {
     color: #E5E7EB;
+    display: flex;
+    justify-content: center;
 }
 
 .quote-container {
