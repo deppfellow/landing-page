@@ -4,77 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Odin Project Landing Page</title>
+    <title>Odin Project Landing Page with References</title>
 
-    <link rel="stylesheet" href="styles/sytle.css">
+    <link rel="stylesheet" href="styles/styleRef.css">
 </head>
 
 <body>
-    <div class="main-container">
-        <header>
-            <ul>
-                <li>Header Logo</li>
-                <li>Header link one</li>
-                <li>Header link two</li>
-                <li>Header link three</li>
+    <header>
+        <nav>
+            <div class="logo"> LOGO </div>
+            <ul class="links">
+                <li><a href="#">link one</a></li>
+                <li><a href="#">link two</a></li>
+                <li><a href="#">link three</a></li>
             </ul>
-        </header>
+        </nav>
+    </header>
 
-        <div class="container-1">
-            <div class="sub-container-1">
-                <div class="content-1">
-                    <h1>This Website is Awesome</h1>
-                    <p>This website has some subtext that goes here under the main title. It's a smaller font and the
-                        color is lower contrast.</p>
-                    <button> Sign up </button>
-                </div>
-                <img src="img/pexels-anush-gorak-1431283.jpg" alt="Fitness Welcome" width="320">
+    <main>
+        <section class="cover">
+            <div class="cover-left">
+                <h1>This Website is Awesome</h1>
+                <p>This website has some subtext that goes under the main title. It's a smaller font and the color is
+                    lower contrast.</p>
+                <button class="cover-btn"> Sign up </button>
             </div>
-        </div>
+            <div class="cover-img">
+                <img src="img/pexels-anush-gorak-1431283.jpg" alt="Fitness Welcome" width="240px">
+            </div>
+        </section>
 
-        <div class="container-2">
-            <h2>Some random information</h2>
-            <div class="sub-container-2">
-                <div class="content-2">
-                    <img src="img/pexels-dumbbells.jpg" alt="Dumbbells img" width="240">
-                    <p>This is some subtext under an illustration of an image</p>
+        <section class="more-info">
+            <h2>Some Random Information</h2>
+
+            <div class="cards-container">
+                <div class="card">
+                    <img src="img/pexels-dumbbells.jpg" alt="#" width="160">
+                    <p>Some placeholder text</p>
                 </div>
-                <div class="content-2">
-                    <img src="img/pexels-dumbbells.jpg" alt="Dumbbells img" width="240">
-                    <p>This is some subtext under an illustration of an image</p>
+                <div class="card">
+                    <img src="img/pexels-dumbbells.jpg" alt="#" width="160">
+                    <p>Some placeholder text</p>
                 </div>
-                <div class="content-2">
-                    <img src="img/pexels-dumbbells.jpg" alt="Dumbbells img" width="240">
-                    <p>This is some subtext under an illustration of an image</p>
+                <div class="card">
+                    <img src="img/pexels-dumbbells.jpg" alt="#" width="160">
+                    <p>Some placeholder text</p>
                 </div>
-                <div class="content-2">
-                    <img src="img/pexels-dumbbells.jpg" alt="Dumbbells img" width="240">
-                    <p>This is some subtext under an illustration of an image</p>
+                <div class="card">
+                    <img src="img/pexels-dumbbells.jpg" alt="#" width="160">
+                    <p>Some placeholder text</p>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <div class="container-3">
-            <h2>Inspiring quotes here</h2>
-            <p>- Some other guy.</p>
-        </div>
+        <section class="quote-container">
+            <p class="quote-text">Placeholder quote text Placeholder quote text Placeholder quote text Placeholder quote
+                text Placeholder
+                quote text Placeholder quote text </p>
+            <span class="quote-source"> Some other guy, your neighbour </span>
+        </section>
 
-        <div class="container-4">
-            <div class="sub-container-4">
-                <div class="content-4">
+        <section class="call-to-action">
+            <div class="cta-container">
+                <div class="container-text">
                     <h3>Call to action! It's time!</h3>
-                    <p>Sign up for our product by clicking that button right over there!</p>
+                    <p>This is some text to engange users with us. Write something fun here</p>
                 </div>
                 <button>Sign up</button>
             </div>
-        </div>
+        </section>
+    </main>
 
-        <footer>
-            <p>
-                Copyright reserved.
-            </p>
-        </footer>
-    </div>
+    <footer class="copyright"> Copyright &copy; 2023 The Odin Project </footer>
 </body>
 
 </html>

@@ -53,4 +53,8 @@ div .container-4 {
     display: flex;
 }
 
-footer {}
+footer {
+    border: 2px solid brown;
+    display: flex;
+    text-align: center;
+}
