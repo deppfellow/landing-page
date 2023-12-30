@@ -86,17 +86,23 @@ nav a {
 }
 
 /* CARDS SECTION */
+/* CARDS SECTION */
+/* CARDS SECTION */
 
 .more-info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2em;
+    padding: 5em 13em;
+    /* margin: 5em auto; */
 }
 
 .cards-container {
     display: flex;
     justify-content: space-evenly;
+    gap: 2em;
 }
 
 .card {
@@ -104,25 +110,48 @@ nav a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: .7em;
 }
+
+.card img {
+    width: 10em;
+}
+
+/* QUOTE SECTION */
+/* QUOTE SECTION */
+/* QUOTE SECTION */
 
 .quote-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* padding: 7em 13em; */
+    gap: 2em;
+    padding: 5em 20em;
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
 }
 
 .quote-container .quote-source {
     align-self: flex-end;
 }
 
-.call-to-action {}
+/* CALL-TO-ACTION SECTION */
+/* CALL-TO-ACTION SECTION */
+/* CALL-TO-ACTION SECTION */
+
+.call-to-action {
+    padding: 5em 13em;
+}
 
 .cta-container {
     background-color: #3882F6;
     color: #E5E7EB;
-    margin: 4em 16em;
+    /* margin: 4em 16em; */
     padding: 2em 8em;
     display: flex;
     justify-content: space-between;
@@ -134,18 +163,13 @@ nav a {
     padding: 0.5em 2em;
 }
 
+/* FOOTER SECTION */
+/* FOOTER SECTION */
+/* FOOTER SECTION */
+
 footer {
     color: #E5E7EB;
     display: flex;
     justify-content: center;
+    padding: 1em 3em;
 }
-
-.quote-container {
-    background-color: #E5E7EB;
-}
-
-/* section,
-header,
-footer {
-    border: 1.2px solid brown;
-} */
