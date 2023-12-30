@@ -61,6 +61,8 @@ nav a {
 }
 
 /* COVER SECTION */
+/* COVER SECTION */
+/* COVER SECTION */
 
 .cover {
     display: flex;
@@ -98,6 +100,11 @@ nav a {
     width: 12em;
     padding: 10px 28px;
     margin: 0 auto;
+}
+
+.cover-btn:hover {
+    background-color: #E5E7EB;
+    color: #1F2937;
 }
 
 .cover-img {
